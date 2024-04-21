@@ -1,0 +1,4 @@
+SELECT
+    *
+FROM TB_DSA_PRODUTOS
+WHERE Nome_Produto LIKE '%Clock%';
