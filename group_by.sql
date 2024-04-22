@@ -6,6 +6,7 @@ SELECT
   ROUND(SUM(Valor_Venda),2) AS Valor_Total,
   COUNT(Valor_Venda) AS Contagem
 FROM TB_DSA_VENDAS
-GROUP BY Produto;
+GROUP BY Produto
+ORDER BY Contagem DESC;
 
 -- A coluna que não estiver na função de agregação vem para o GROUP BY
