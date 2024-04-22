@@ -1,0 +1,20 @@
+INSERT INTO TB_DSA_CLIENTES (
+              ID_Cliente,
+              Nome_Cliente,
+              Cidade,
+              Estado,
+              Pais,
+              Regiao,
+              Mercado, 
+              Segmento
+            )
+            VALUES(
+            '1000',
+            'Bob',
+            'BH',
+            'MG',
+            'Brasil',
+            'Sudeste',
+            'Central',
+            'Bares'
+            );     
