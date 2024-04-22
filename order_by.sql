@@ -1,0 +1,4 @@
+SELECT
+  *
+FROM TB_DSA_PRODUTOS
+ORDER BY Nome_Produto;
